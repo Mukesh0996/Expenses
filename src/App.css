@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+  margin: auto;
+  width: 1200px;
+  align-items: center;
+}
+body{
+  background-color: rgba(34, 86, 197, 0.467);
+}
+.h{
+  background-color: white;
+}
+
+@media (min-width:1100px) {
+  .App{
+    width: 1200px;
+  }
+}
+@media (min-width:920px) {
+  .App{
+    width: auto;
+  }
+}
+
+@media (max-width:920px) {
+  .App{
+    width: auto;
+  }
+}
+
+@media (min-width:220px) {
+  .App{
+    width: auto;
+  }
+}
+
+
